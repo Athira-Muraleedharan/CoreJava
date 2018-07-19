@@ -1,3 +1,4 @@
+//Multiple Inheritance Demo Program
 class A{
 	int a=50;
 }
