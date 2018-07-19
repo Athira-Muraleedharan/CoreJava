@@ -9,16 +9,16 @@ public class Mobile {
 		System.out.println("Please wait...connecting the call");
 	}
 	public void receiveACall() {
-		
+		System.out.println("Receiving A Call");
 	}
-	public void sendATest() {
-	
+	public void sendAText() {
+		System.out.println("Texting a message");
 	}
 	public void switchOn() {
-	
+		System.out.println("Switching On");
 	}
 	public void switchOff() {
-	
+		System.out.println("Switched Off");
 	}
 	public double getDiscount() {
 		double discount=0;
