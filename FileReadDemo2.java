@@ -9,14 +9,22 @@ public class FileReadDemo2 {
 				
 		// Use readLine method to read line by line
 		String line=br.readLine();
-		
+		int flag=0;
 		while(line!=null) { //Checking EOF
-					System.out.println(line);
-					line=br.readLine();// 
-				}
+			
+			if(line.contains("Java")) {
+				flag=1;
+				break;
+			}
+			line=br.readLine();// 
+		}
+		if(flag==1)
+			System.out.println("Success");
+		else
+			System.out.println("The word Java is not found");
 				
-				//close the file
-				fr.close();
+		//close the file
+		fr.close();
 
 	}
 
